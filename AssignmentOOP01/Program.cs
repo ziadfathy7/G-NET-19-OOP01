@@ -1,4 +1,9 @@
-﻿namespace AssignmentOOP01
+﻿using AssignmentOOP01.Classes;
+using AssignmentOOP01.Enums;
+using AssignmentOOP01.Struct;
+using System.Net.Sockets;
+
+namespace AssignmentOOP01
 {
 
     #region Part01
@@ -73,6 +78,40 @@
             //C2.Name = "Red";
             //Console.WriteLine(C1.Name);
             //// Still Green because it only copies data not the object
+
+
+            #region Part 2
+
+            
+
+            //Console.WriteLine("Enter Movie Name: ");
+            //string? movieName = Console.ReadLine();
+            //Console.WriteLine("Enter Ticket Type(0 = Standard, 1 = VIP, 2= IMAX)");
+            //TicketsType ticketType = Enum.Parse<TicketsType>(Console.ReadLine());
+            //Console.WriteLine("Enter Seat Row(A,B,C....)");
+            //char seat = char.Parse(Console.ReadLine());
+            //Console.WriteLine("enter seat number");
+            //int seatNumber = int.Parse(Console.ReadLine());
+            //Seats seat1 = new Seats(seat,seatNumber);
+            //Console.WriteLine("Enter Price");
+            //double price = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Discount amount");
+            //double discountAmount = double.Parse(Console.ReadLine());
+
+            //Ticket T1 = new Ticket(movieName,price, ticketType,seat1);
+
+
+            //Console.WriteLine("\n===== Ticket Info =====");
+            //T1.PrintTicket();
+
+            //Console.WriteLine("\n===== After Discount =====");
+            //Console.WriteLine($"Discount Before : {discountAmount}");
+
+            //discountAmount = T1.ApplyDiscount(discountAmount);
+            //Console.WriteLine($"Discount After  : {discountAmount}");
+            //T1.PrintTicket();
+            #endregion
+
         }
     }
 }
